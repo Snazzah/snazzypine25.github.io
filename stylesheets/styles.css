@@ -57,13 +57,13 @@ header {
   -ms-border-radius: 8px 8px 0 0;
   -o-border-radius: 8px 8px 0 0;
   border-radius: 8px 8px 0 0;
-  background: #C6EAFA;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ddfbfc), color-stop(100%, #c6eafa));
-  background: -webkit-linear-gradient(#ddfbfc, #c6eafa);
-  background: -moz-linear-gradient(#ddfbfc, #c6eafa);
-  background: -o-linear-gradient(#ddfbfc, #c6eafa);
-  background: -ms-linear-gradient(#ddfbfc, #c6eafa);
-  background: linear-gradient(#ddfbfc, #c6eafa);
+  background: #686868;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #222222), color-stop(100%, #686868));
+  background: -webkit-linear-gradient(#222222, #686868);
+  background: -moz-linear-gradient(#222222, #686868);
+  background: -o-linear-gradient(#222222, #686868);
+  background: -ms-linear-gradient(#222222, #686868);
+  background: linear-gradient(#222222, #686868);
   position: relative;
   padding: 15px 20px;
   border-bottom: 1px solid #B2D2E1;
@@ -73,7 +73,7 @@ header h1 {
   padding: 0;
   font-size: 24px;
   line-height: 1.2;
-  color: #069;
+  color: #fff;
   text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
 }
 header.without-description h1 {
@@ -107,13 +107,13 @@ header ul {
   top: 20px;
   height: 38px;
   padding: 1px 0;
-  background: #5198DF;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #77b9fb), color-stop(100%, #3782cd));
-  background: -webkit-linear-gradient(#77b9fb, #3782cd);
-  background: -moz-linear-gradient(#77b9fb, #3782cd);
-  background: -o-linear-gradient(#77b9fb, #3782cd);
-  background: -ms-linear-gradient(#77b9fb, #3782cd);
-  background: linear-gradient(#77b9fb, #3782cd);
+  background: #504f4f;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #000000), color-stop(100%, #313131));
+  background: -webkit-linear-gradient(#000000, #313131);
+  background: -moz-linear-gradient(#000000, #313131);
+  background: -o-linear-gradient(#000000, #313131);
+  background: -ms-linear-gradient(#000000, #313131);
+  background: linear-gradient(#000000, #313131);
   border-radius: 5px;
   -webkit-box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -1px 0;
   -moz-box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -1px 0;
@@ -168,6 +168,7 @@ header ul a {
   text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 }
 header ul a strong {
+  top: 10px;
   font-size: 14px;
   display: block;
   color: #fff;
